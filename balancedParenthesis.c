@@ -10,7 +10,6 @@ void push(char ch){
         printf("Stack Overflow\n");
     }else{
         stack[++top] = ch;
-        // printf("Pushed element: %c\n", ch);
     }
 }
 
